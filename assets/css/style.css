@@ -64,7 +64,7 @@ a {
 
 #main{
     position: relative;
-    width: 930px;
+    width: 960px;
     height: 400px;
     left: 150px;
     margin-top: 50px;
@@ -79,7 +79,7 @@ h1 {
     padding-top:10px;
 }
 hr{
-    margin-right: 30px;
+    width: 95%;
 }
 
 #my_image {
@@ -97,17 +97,18 @@ h2 {
     font-size: 14px;
     height: 16px;
     margin-right: 30px;
+    width: 95%;
 }
 #messemail {
     font-size: 14px;
     height: 16px;
-    width: 900px;
+    width: 95%;
 }
 #message {
     text-align: left;
     font-size: 14px;
     height: 102px;
-    width: 900px;
+    width: 95%;
 }
 #submit{
     margin-top: 20px;
@@ -133,36 +134,59 @@ footer{
     float: left;
     height: 150px;
     width: 150px;
-    margin-right: 100px;
+    margin-right: 50px;
     margin-bottom:20px;
 }
-@media screen and (max-width:1080px){
-    #subheading,#main,#messname,#messemail,#message {
+@media screen and (max-width:1000px){
+    #subheading,#main {
         width:750px;
     }
     #subheading,#main {
         position: relative;
         left: 150px;
+    }
+    #name {
+        width: 25%;
+    }
 
 }
 
 @media screen and (max-width:768px){
-    #subheading,#main,#messname,#messemail,#message {
+    #subheading,#main {
         width:600px;
     }
     #subheading,#main {
         position: relative;
         left: 100px;
     }
+    #name {
+        width: 30%;
+    }
+    #about,#portfolio,#contact{
+        width: 15%;
+    }
 }
 @media screen and (max-width:640px){
-    #subheading,#main,#messname,#messemail,#message {
+    #subheading,#main {
         width:400px;
 
     }
     #subheading,#main {
         position:relative;
         left:50px;
+    }
+    #about,#portfolio,#contact {
+        width:20%;
+    }
+    #name {
+        width:40%;
+    }
+    .project {
+        height: 100px;
+        width: 100px;
+    }
+    #main {
+        height: 450px;
     }
 
 }

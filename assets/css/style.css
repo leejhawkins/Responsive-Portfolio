@@ -134,3 +134,24 @@ footer{
     margin-right: 100px;
     margin-bottom:20px;
 }
+@media screen and (max-width:980px){
+    #subheader,#main,#messname,#messemail,#message {
+        width:750px;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width:768px){
+    #subheader,#main,#messname,#messemail,#message {
+        width:600px;
+    }
+}
+@media screen and (max-width:640px){
+    #subheader,#main,#messname,#messemail,#message {
+        width:540px;
+
+    }
+
+}
+
+

@@ -1,0 +1,136 @@
+
+body {
+    line-height: 16px;
+    font-size: 16px;
+    background-image: url("../images/concrete-texture/concrete-texture.png");
+
+}
+
+#heading {
+    background: white;
+    height: 60px;
+}
+#subheading{
+    width: 960px;
+    margin-left: 200px;
+    height: 60px;
+}
+#name{
+    float: left;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 200 px;
+    background: #4aaaa5;
+    color: #eee;
+    width: 20%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+a {
+    color:#777777;
+    text-decoration: none;
+}
+#about {
+    float: right;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 10%;
+    color: #777777;
+    text-align: right;
+
+}
+#portfolio {
+    float: right;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 10%;
+    color: #777777;
+    text-align: right;
+}
+#contact {
+    float: right;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 10%;
+    color: #777777;
+    text-align: right;
+}
+
+#main{
+    width: 930px;
+    height: 400px;
+    margin-left: 200px;
+    margin-top: 50px;
+    padding-top:20px;
+    padding-left: 30px;
+    background-color: white;
+}
+h1 {
+    font-size: 24px;
+    color: #4aaaa5;
+    margin-bottom: 20px;
+    padding-top:10px;
+}
+hr{
+    margin-right: 30px;
+}
+
+#my_image {
+    float: left;
+    height: 150px;
+    width: 150px;
+    margin-right: 20px;
+}
+
+h2 {
+    font-size: 16px;
+    color: #777777;
+}
+#messname {
+    font-size: 14px;
+    height: 16px;
+    width: 900px;
+}
+#messemail {
+    font-size: 14px;
+    height: 16px;
+    width: 900px;
+}
+#message {
+    text-align: left;
+    font-size: 14px;
+    height: 102px;
+    width: 900px;
+}
+#submit{
+    margin-top: 20px;
+    width: 60px;
+    background: #4aaaa5;
+    color: white;
+    font-size: 8px;
+}
+footer{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-size: 6px;
+    background: #777777;
+    border-top: 20px #4aaaa5;
+    margin-top: 30px;
+    height: 20px;
+    clear: both;
+
+}
+
+.project {
+    float: left;
+    height: 150px;
+    width: 150px;
+    margin-right: 100px;
+    margin-bottom:20px;
+}

@@ -130,6 +130,10 @@ footer{
 
 }
 
+.projectname {
+    color: white;
+}
+
 .project {
     float: left;
     height: 150px;
